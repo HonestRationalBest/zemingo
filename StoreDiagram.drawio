@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2024-05-30T12:48:44.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Ors_mvtOFgfExu58vCMS" version="24.4.10" type="device">
+  <diagram name="Page-1" id="zmAv67fZLvw7gthbBz2W">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ViS8qULe2vvxGkmYpTru-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-3" value="Front-end" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-4" value="1. Inventry endpoint&amp;nbsp;&lt;div&gt;2. Product endpoint&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-5" value="Back-end" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-8" value="DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.012;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="109.99999999999999" as="sourcePoint" />
+            <mxPoint x="513.3599999999999" y="194.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-13" value="Inventory&lt;div&gt;quantity: number&lt;br&gt;&lt;div&gt;name: Product&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-14" value="Product&lt;div&gt;name: string&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-17" value="Product page" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ViS8qULe2vvxGkmYpTru-19" target="ViS8qULe2vvxGkmYpTru-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ViS8qULe2vvxGkmYpTru-19" target="ViS8qULe2vvxGkmYpTru-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="280" />
+              <mxPoint x="245" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-19" value="Inventory page" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-22" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.012;entryY=0.562;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ViS8qULe2vvxGkmYpTru-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190" y="85.63999999999999" as="sourcePoint" />
+            <mxPoint x="253.3599999999999" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ViS8qULe2vvxGkmYpTru-17" target="ViS8qULe2vvxGkmYpTru-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="310" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-25" value="add new product()" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-26" value="create new inventory()" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="125" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ViS8qULe2vvxGkmYpTru-29" value="get all inventories()" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="70" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
