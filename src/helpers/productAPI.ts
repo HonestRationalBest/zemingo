@@ -9,19 +9,19 @@ export const fetchAllProducts = (): Promise<Product[]> => {
   });
 };
 
-export const addProduct = (productName: string): Promise<Product[]> => {
-  return fetch("/product", {
+export const addProduct = async (productName: string): Promise<Product[]> => {
+  const response = await fetch("/product", {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({ name: productName }),
-  }).then((response) => {
-    if (!response.ok) {
-      throw new Error("Failed to add new product");
-    } else {
-      alert("The product has been successfully added!");
-    }
-    return response.json();
   });
+
+  if (!response.ok) {
+    throw new Error("Failed to add new product");
+  } else {
+    alert("The product has been successfully added!");
+  }
+  return await response.json();
 };

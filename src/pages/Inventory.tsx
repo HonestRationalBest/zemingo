@@ -24,7 +24,7 @@ export const Inventory: FC = () => {
 
   return (
     <div>
-      <AddNewInventoryForm setInventory={setItems} />
+      <AddNewInventoryForm setInventory={setItems} items={items} />
       <div
         style={{
           border: "1px solid black",
@@ -32,8 +32,8 @@ export const Inventory: FC = () => {
           marginTop: "10px",
         }}
       >
-        {items.map((item) => (
-          <div key={item.name}>
+        {items.map((item, index) => (
+          <div key={item.name + index}>
             <div>
               Name: {item.name}, Quantity: {item.quantity}
             </div>

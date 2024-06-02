@@ -5,10 +5,12 @@ import { createInventory } from "../helpers/inventoryAPI";
 
 interface AddNewInventoryFormProps {
   setInventory: Dispatch<SetStateAction<InventoryItem[]>>;
+  items: InventoryItem[];
 }
 
 export const AddNewInventoryForm: React.FC<AddNewInventoryFormProps> = ({
   setInventory,
+  items,
 }) => {
   const [products, setProducts] = useState<Product[]>([]);
   const [selectedProduct, setSelectedProduct] = useState("");
@@ -19,9 +21,9 @@ export const AddNewInventoryForm: React.FC<AddNewInventoryFormProps> = ({
     event.preventDefault();
 
     if (selectedProduct && quantity) {
-      createInventory([{ name: selectedProduct, quantity: quantity }])
+      createInventory([...items, { name: selectedProduct, quantity: quantity }])
         .then((createdInventory) => {
-          setInventory((prevState) => [...prevState, ...createdInventory]);
+          setInventory(createdInventory);
           setSelectedProduct("");
           setQuantity(1);
         })
