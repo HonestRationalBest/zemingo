@@ -8,7 +8,6 @@ export const Inventory: FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    console.log("Fetching inventory data...");
     fetchInventory().then((data) => {
       setItems(data);
       setLoading(false);
